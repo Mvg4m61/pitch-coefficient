@@ -90,7 +90,6 @@ M_de=M_de-(step_size/num_experiments)*(M_0+M_alpha*angle_of_attack+M_q*time_rate
     cout<<"\nTime rate change coefficient is "<<M_q;
     cout<<"\nPitch rate coefficient is "<<M_u;
     cout<<"\nElevator angle coefficient is "<<M_de;
-    cout<<"\nError is "<<error;
     cout<<"\n\nTerminating program...";
     
     return 0;
